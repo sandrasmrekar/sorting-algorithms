@@ -2,7 +2,7 @@
   "name": "sorting",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://sandrasmrekar.github.io/sorting-algorithms/",
+  "homepage": " https://sandrasmrekar.github.io/sorting-algorithms",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material/slider": "^10.0.0",
