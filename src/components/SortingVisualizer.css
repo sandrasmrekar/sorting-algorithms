@@ -1,0 +1,70 @@
+.array-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.array-bar {
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 0;
+  height: 100%;
+  transition: margin-top 0.1s ease-in-out;
+}
+
+.array-bar-box {
+  cursor: pointer;
+}
+
+.array-bar-box:hover .array-bar {
+  transition: margin-top 0.1 ease-in-out;
+  margin-top: 30px;
+  background-color: rgb(252, 93, 132) !important;
+}
+
+/* TOOL BAR */
+
+header {
+  padding: 10px;
+}
+
+.line {
+  height: 1px;
+  background-color: black;
+  margin-bottom: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.2;
+  width: 90%;
+}
+
+button {
+  border-color: transparent;
+  outline: none;
+  margin: 16px;
+  background-color: transparent;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+  color: #3700b3;
+}
+button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  position: absolute;
+  color: #3700b3;
+  right: 10px;
+}
